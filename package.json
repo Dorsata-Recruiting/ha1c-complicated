@@ -1,0 +1,7 @@
+{
+    "name": "medical_data_api",
+    "dependencies": {
+        "cors": "^2.8.4",
+        "express": "^3.2.6"
+    }
+}
