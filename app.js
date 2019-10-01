@@ -1,22 +1,23 @@
-var express  = require("express"),
-    cors     = require("cors"),
-    app      = express(),
-    http     = require("http"),
-    server   = http.createServer(app);
+'use strict'
 
-app.configure(function () {
-    app.use(cors());
-    app.use(express.bodyParser());
-    app.use(express.methodOverride());
-    app.use(app.router);
-});
+const express = require('express'),
+	cors = require('cors'),
+	app = express(),
+	http = require("http"),
+	bodyParser = require('body-parser'),
+	methodOverride = require('method-override'),
+	server = http.createServer(app)
 
-app.get('/', function(req, res) {
-    res.send("It works!");
-});
+app.use(cors())
+app.use(bodyParser.json())
+app.use(methodOverride())
 
-routes = require('./routes/ehr_data')(app);
+app.get('/', (req, res) => {
+	res.send("It works!");
+})
+
+require('./routes/ehr_data')(app)
 
 server.listen(3000, function() {
-    console.log("Node server running on http://localhost:3000");
-});
+	console.log("Node server running on http://localhost:3000")
+})
