@@ -18,6 +18,17 @@ Our client is requesting a design for an Electronic Health Record (EHR) plugin. 
 ## Task
 Write browser-executed JavaScript in the framework of your choice that uses the API endpoints above to, based on what you've learned by discussing the problem, display information for a particular patient that might be useful for a provider to see.
 
+
+# Note on Branches
+
+We use prerelease as our trunk branch.  Most code is PR-ed against prerelease.
+
+At the end of every sprint, we merge prerelease to staging.  That is, in essence, the release candidate.  (Forgive the naming.)  Any corrections to the release candidate get PR-ed against staging.
+
+For hotfixes, we create a branch and PR against master.  Master is what is in our production environment.
+
+Immedidately after a release, staging and master are identical.  If there are a number of "warm" fixes that are going in after a release, we will PR them against staging, test them as a group, and then merge to master.
+
 # Credit
 
 This is forked from https://github.com/coshx/opportunities.  Thank you!
