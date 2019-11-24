@@ -29,6 +29,8 @@ For hotfixes, we create a branch and PR against master.  Master is what is in ou
 
 Immedidately after a release, staging and master are identical.  If there are a number of "warm" fixes that are going in after a release, we will PR them against staging, test them as a group, and then merge to master.
 
+Most of the time, we want warm-fixes like this one to be in the trunk branch (prerelease).
+
 # Credit
 
 This is forked from https://github.com/coshx/opportunities.  Thank you!
