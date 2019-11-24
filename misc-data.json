@@ -2,11 +2,12 @@
   {
     "firstName": "Jane",
     "lastName": "Doe",
-    "age": "31"
+    "age": "32",
+    "note": "This data absolutely should not go into prerelease since it is totally temporary.  Good enough for now, though."
   },
   {
     "firstName": "Mary",
-    "lastName": "Swanson",
-    "age": "28"
+    "lastName": "Swinson",
+    "age": "29"
   }
 ]
