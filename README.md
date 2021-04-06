@@ -3,13 +3,22 @@
 1. From this directory, run `npm install`
 
 # Usage
-1. From this directory, run `node app.js` to start the server.
+1. Express
+  1. From this directory, run `npm start` to start the server.
+1. Ruby - Sinatra
+  1. go into `/ruby-backend`
+  1. Make sure you are running ruby version `2.6.5`
+  1. run `bundle install`
+  1. run `bundle exec ruby app.rb`
 1. Now you can hit the two routes, `patients` and `visits`.
+1. Vue app, run `npm run-script serve` to start Vue app.
 
 # Examples
 * Get all patients: `curl localhost:3000/patients`
 * Get all patient visits: `curl localhost:3000/visits`
 * Get a single patient's visits: `curl localhost:3000/visits/[patient_id]`
+* Get all patient vitals `curl localhost:3000/vitals`
+* Get all patient's vitals `curl localhost:3000/patients/:id/vitals`
 
 # The Client
 ## Background

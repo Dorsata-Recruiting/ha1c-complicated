@@ -16,7 +16,7 @@ app.get('/', (req, res) => {
 	res.send("It works!");
 })
 
-require('./routes/ehr_data')(app)
+require('./routes')(app)
 
 server.listen(3000, function() {
 	console.log("Node server running on http://localhost:3000")
