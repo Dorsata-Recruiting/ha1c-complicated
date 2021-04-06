@@ -19,5 +19,5 @@ get '/visits' do
 end
 
 get '/patients/:id/vitals' do
-	"write my logic #{params.id}"
+	"write my logic #{params[:id]}"
 end
