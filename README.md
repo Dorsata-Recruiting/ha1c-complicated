@@ -9,7 +9,7 @@
   1. go into `/ruby-backend`
   1. Make sure you are running ruby version `2.6.5`
   1. run `bundle install`
-  1. run `bundle exec ruby app.rb`
+  1. run `rerun app.rb`
 1. Now you can hit the two routes, `patients` and `visits`.
 1. Vue app, run `npm run-script serve` to start Vue app.
 
