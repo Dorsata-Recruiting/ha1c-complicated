@@ -6,11 +6,15 @@
 1. Express
   1. From this directory, run `npm start` to start the server.
 1. Ruby - Sinatra
-  1. go into `/ruby-backend`
+  1. go into `cd ruby-backend`
   1. Make sure you are running ruby version `2.6.5`
   1. run `bundle install`
-  1. run `bundle exec ruby app.rb`
-1. Now you can hit the two routes, `patients` and `visits`.
+  1. run `bundle exec rerun app.rb`
+1. Now you can hit these routes
+  1. `localhost:3000/patients`
+  1. `localhost:3000/visits`
+  1. `localhost:3000/patients/193`
+  1. `localhost:3000/patients/193/vitals`
 1. Vue app, run `npm run-script serve` to start Vue app.
 
 # Examples
