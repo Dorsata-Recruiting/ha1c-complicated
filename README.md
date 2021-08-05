@@ -27,8 +27,13 @@
 Our client is requesting a design for an Electronic Health Record (EHR) plugin. Samples of their data can be found at the [endpoints above](#examples). Hemoglobin A1c (ha1c in the sample API) is a particularly important indicator for diabetes that the physicians want to track.
 
 ## Task
-Write browser-executed JavaScript in the framework of your choice that uses the API endpoints above to, based on what you've learned by discussing the problem, display information for a particular patient that might be useful for a provider to see.
+Write browser-executed JavaScript in the framework of your choice (though we have provided a nice starting point for you that you're welcome to use) that uses the API endpoints above to, based on what you've learned by discussing the problem, display information for a particular patient that might be useful for a provider to see.
 
+We've provided the basics of a front-end application which calls the skeleton of a backend in the ruby-backend folder. The data is entirely from the EHR Service. Your goal is to write the necesary improvements to the backend to get the data to the front end. Bonus: present the data in the front-end in a useful format.
+
+## Hint
+
+There are multiple patients available. The EHR service has the vitals attached to the visits for each of these patients. Patient 193 is one of our favorites.
 
 # Note on Branches
 
