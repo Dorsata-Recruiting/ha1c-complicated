@@ -3,8 +3,6 @@
 1. From this directory, run `npm install`
 
 # Usage
-1. Express
-  1. From this directory, run `npm start` to start the server.
 1. Ruby - Sinatra
   1. go into `cd ruby-backend`
   1. Make sure you are running ruby version `2.6.5`
