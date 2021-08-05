@@ -24,7 +24,7 @@
 
 # The Client
 ## Background
-Our client is requesting a design for an Electronic Health Record (EHR) plugin. Samples of their data can be found at the [endpoints above](#examples). Hemoglobin A1c (ha1c in the sample API) is a particularly important indicator for diabetes that the physicians want to track.
+Our client is requesting a design for an Electronic Health Record (EHR) plugin. Samples of the data from the EHR can be found at the [endpoints above](#examples). Hemoglobin A1c (ha1c in the sample API) is a particularly important indicator for diabetes that the physicians want to track.
 
 ## Task
 Write browser-executed JavaScript in the framework of your choice (though we have provided a nice starting point for you that you're welcome to use) that uses the API endpoints above to, based on what you've learned by discussing the problem, display information for a particular patient that might be useful for a provider to see.
@@ -33,17 +33,13 @@ We've provided the basics of a front-end application which calls the skeleton of
 
 ## Hint
 
-There are multiple patients available. The EHR service has the vitals attached to the visits for each of these patients. Patient 193 is one of our favorites.
+There are multiple patients available. The EHR service has the vitals attached to the visits for each of these patients. For this exercise, every visit has a set of vital measurements. You can consider "visits" and "vitals" synonymous.
 
-# Note on Branches
+Patient 193 is one of our favorites.
 
-We use prerelease as our trunk branch.  Most code is PR-ed against prerelease.
+## Hint the Second
 
-At the end of every sprint, we merge prerelease to staging.  That is, in essence, the release candidate.  (Forgive the naming.)  Any corrections to the release candidate get PR-ed against staging.
-
-For hotfixes, we create a branch and PR against master.  Master is what is in our production environment.
-
-Immedidately after a release, staging and master are identical.  If there are a number of "warm" fixes that are going in after a release, we will PR them against staging, test them as a group, and then merge to master.
+Feel free to look at the Vue app to see what it expects.
 
 # Credit
 
