@@ -41,6 +41,10 @@ Patient 193 is one of our favorites.
 
 Feel free to look at the Vue app to see what it expects.
 
+## Hint the Third
+
+Google is a thing. We all use it. All good.
+
 # Credit
 
 This is forked from https://github.com/coshx/opportunities.  Thank you!
