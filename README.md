@@ -1,11 +1,13 @@
 # Setup
-1. Install [`npm`](https://www.npmjs.com/get-npm)
+1. We're set up to use node lts/erbium (12), though most versions should be fine.
+1. Install [`npm`](https://www.npmjs.com/get-npm) if not already installed.
 1. From this directory, run `npm install`
 
 # Usage
 1. Ruby - Sinatra
   1. go into `cd ruby-backend`
   1. Make sure you are running ruby version `2.6.5`
+  1. In case it isn't installed, `gem install bundler:2.1.4`
   1. run `bundle install`
   1. run `bundle exec rerun app.rb`
 1. Now you can hit these routes
