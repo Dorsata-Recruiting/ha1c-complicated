@@ -13,7 +13,6 @@
 1. Now you can hit these routes
   1. `localhost:3000/patients`
   1. `localhost:3000/visits`
-  1. `localhost:3000/patients/193`
   1. `localhost:3000/patients/193/vitals`
 1. Vue app, run `npm run-script serve` to start Vue app.
 
