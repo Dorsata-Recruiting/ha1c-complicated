@@ -4,7 +4,7 @@
       <input v-model="patientId" type="text"/>
       <button @click.prevent="getVitals()">submit</button>
     </form>
-    <patient class="patient-data" v-if="!loading && !error" :patient="patientData"></patient>
+    <patientItem class="patient-data" v-if="!loading && !error" :patient="patientData"></patientItem>
     <div v-if="!loading && error">
       {{ error }}
     </div>
@@ -16,11 +16,11 @@
 
 <script>
 import { getPatientVitals } from './api'
-import Patient from './Patient'
+import PatientItem from './Patient'
 
 export default {
   name: 'App',
-  components: { Patient },
+  components: { PatientItem },
   data() {
     return {
       patientData: {},
