@@ -31,7 +31,7 @@ Our client is requesting a design for an Electronic Health Record (EHR) plugin. 
 ## Task
 The big picture goal is to write browser-executed JavaScript in the framework of your choice (though we have provided a nice starting point in Vue for you that you are encouraged to use) that uses the API endpoints above.  It should, based on what you've learned by discussing the problem, display information for a particular patient that might be useful for a provider to see.
 
-The first thing you should do is to get the backend working. The data is entirely from the EHR Service. Your goal is to write the necesary improvements to the backend to get the data to the front end. Bonus: present the data in the front-end in a useful format.
+The first thing you should do is to get the backend working. The data is entirely from the EHR Service. Your goal is to write the necessary improvements to the backend to get the data to the front end. Bonus: present the data in the front-end in a useful format.
 
 ## Hint
 
