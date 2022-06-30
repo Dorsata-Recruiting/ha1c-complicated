@@ -1,5 +1,5 @@
 # Setup
-1. We're set up to use node lts/erbium (12), though most versions should be fine.
+1. We're set up to use node lts/gallium (16), though most versions should be fine.
 1. Install [`npm`](https://www.npmjs.com/get-npm) if not already installed.
 1. From this directory, run `npm install`
 

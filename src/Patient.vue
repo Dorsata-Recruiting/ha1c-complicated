@@ -8,6 +8,7 @@
 
 <script>
 export default {
+  // eslint-disable-next-line
   name: 'Patient',
   props: {
     patient: {
