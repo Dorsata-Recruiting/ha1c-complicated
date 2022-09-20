@@ -6,7 +6,7 @@
 # Usage
 1. Ruby - Sinatra
   1. go into `cd ruby-backend`
-  1. Make sure you are running ruby version `2.6.5`
+  1. Make sure you are running ruby version `2.7.6`
   1. In case it isn't installed, `gem install bundler:2.1.4`
   1. run `bundle install`
   1. run `bundle exec rerun app.rb`
